@@ -1,0 +1,43 @@
+:root {
+  --vp-c-brand-1: #b4532f;
+  --vp-c-brand-2: #c96442;
+  --vp-c-brand-3: #d97757;
+  --vp-c-brand-soft: rgba(201, 100, 66, 0.14);
+  --vp-font-family-base: 'Inter', 'Noto Sans TC', 'Microsoft JhengHei', system-ui, sans-serif;
+}
+
+.dark {
+  --vp-c-brand-1: #e8916f;
+  --vp-c-brand-2: #d97757;
+  --vp-c-brand-3: #c96442;
+  --vp-c-brand-soft: rgba(217, 119, 87, 0.16);
+}
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+
+.vp-doc td code {
+  white-space: nowrap;
+}
+
+/* 步驟標籤：需要使用者確認的步驟 */
+.ask {
+  display: inline-block;
+  padding: 0 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--vp-c-warning-soft);
+  color: var(--vp-c-warning-1);
+}
+.auto {
+  display: inline-block;
+  padding: 0 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--vp-c-tip-soft);
+  color: var(--vp-c-tip-1);
+}

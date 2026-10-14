@@ -1,0 +1,9 @@
+.venv/
+node_modules/
+_trash/
+data/raw/
+.env.keys
+*.local
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+.vercel

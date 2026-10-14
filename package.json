@@ -1,0 +1,15 @@
+{
+  "name": "claude-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Claude 操作手冊：SOP、指令集、跨電腦交接與 dotenvx 環境變數規範",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
