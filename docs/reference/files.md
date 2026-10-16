@@ -66,6 +66,10 @@
 
 目前已連接：Claude Docs、Gmail、Google Calendar、Google Drive、Vercel、Supabase、scheduled-tasks、visualize。**GitHub 沒有 Connector**，Git 操作走本機 `git`（認證由 Git Credential Manager 處理）。
 
+::: tip Vercel Connector 的坑
+呼叫 Vercel Connector 的工具時**不要帶 `teamId`**（`team_FhyeReXMTNCeyU6qkghsNatY`／`hoonsors-projects`），帶了會回 403；不帶就會自動用你的帳號範圍，能正常讀取專案與部署。需要建立專案等一定要帶 teamId 的操作，改用本機 Vercel CLI（`vercel.cmd`，已登入）。
+:::
+
 ## 專案與腳本
 
 | 東西 | 位置 |
