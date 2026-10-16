@@ -4,7 +4,7 @@
 
 - **VitePress** 靜態網站：每一頁就是 `docs/` 底下的一個 Markdown 檔，內建全文搜尋、暗色模式、程式碼一鍵複製。
 - 原始碼：`D:\01-Project\35-個人網頁最終版` → GitHub [`hoonsor/Claude-Hub`](https://github.com/hoonsor/Claude-Hub)（**public**）。
-- 部署：Vercel，push 到 `main` 後自動更新。
+- 部署：Vercel 專案 `claude-hub`，正式網址 <https://claude-hub-eta.vercel.app>，push 到 `main` 後自動更新；要回到前一版用 Vercel 後台的 Instant Rollback。
 
 ```text
 docs/

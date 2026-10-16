@@ -4,7 +4,7 @@ Claude 操作手冊網站：每日 SOP、A／B 電腦接續、指令集、dotenv
 
 ## 技術棧
 - VitePress 1.6（靜態網站，Markdown 內容）
-- 部署：Vercel（GitHub `hoonsor/Claude-Hub` 的 `main` 自動部署）
+- 部署：Vercel 專案 `claude-hub`，正式網址 https://claude-hub-eta.vercel.app（push `main` 自動部署）
 
 ## 目錄
 - `docs/` 所有頁面（Markdown）

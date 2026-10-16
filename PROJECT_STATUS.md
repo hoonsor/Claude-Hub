@@ -3,11 +3,13 @@
 ## 版本歷程
 | 版本 | 日期 | 內容 |
 |---|---|---|
+| v1.0.1 | 2026-10-16 | 部署到 Vercel，記錄正式網址 |
 | v1.0.0 | 2026-10-14 | 初版：SOP、指令集、dotenvx、檔案位置、待整理事項共 20 頁 |
 
 ## 任務
 - [x] 建立 VitePress 網站骨架與 20 頁內容
 - [x] 推上 GitHub `hoonsor/Claude-Hub`
+- [x] 部署到 Vercel：https://claude-hub-eta.vercel.app（GitHub 自動部署已連接）
 - [ ] 處理 `docs/reference/known-issues.md` 的 8 個待整理事項
 
 ## ➡️ 下一步

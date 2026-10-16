@@ -7,3 +7,4 @@ data/raw/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
 .vercel
+.env.local
